@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ProfilActivity"
+    android:orientation="vertical"
+    android:background="#F8BBD0">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvNama"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_orang_24dp"
+        android:drawablePadding="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginTop="20dp"
+        android:text="nama" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/tvEmail"
+        android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
+        android:drawablePadding="10dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/tvNomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+</LinearLayout>
